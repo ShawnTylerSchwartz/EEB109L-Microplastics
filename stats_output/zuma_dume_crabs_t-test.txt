@@ -1,0 +1,12 @@
+
+	Paired t-test
+
+data:  ZumaCounts$TotalZumaCrabs and DumeCounts$TotalDumeCrabs
+t = -0.78401, df = 19, p-value = 0.4427
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -2.752239  1.252239
+sample estimates:
+mean of the differences 
+                  -0.75 
+
