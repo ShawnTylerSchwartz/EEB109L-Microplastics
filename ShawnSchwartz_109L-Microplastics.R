@@ -195,7 +195,7 @@ write.csv(dumestats, "stats_output/pointdume_stats.csv")
 #### t-tests #### 
 ## paired samples (plastics (Zuma v. Dume))
 zuma.dume.plastics.t.test <- t.test(ZumaPlastics$TotalZumaPlastic, DumePlastics$TotalDumePlastic, paired = TRUE)
-zuma.dume.crabs.t.test
+zuma.dume.plastics.t.test
 zumadumeplasticschars <- capture.output(print(zuma.dume.plastics.t.test))
 writeLines(zumadumeplasticschars, con = file("stats_output/zuma_dume_plastics_t-test.txt"))
 
